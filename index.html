@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" charset="utf-8" href="css/styles.css">
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <form>
+      <div class="header">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="formFields">
+        <div id="firstName" style="display:inline-block">
+          <label for="nameFirst">First Name</label><br>
+          <input type="text" id="nameFirst" name="user_firstName">
+        </div>
+        <div id="lastName" style="display:inline-block">
+          <label for="nameLast">Last Name</label><br>
+          <input type="text" id="nameLast" name="user_lastName">
+        </div>
+        <div id="email">
+          <label for="mail">Email Address</label><br>
+          <input type="email" id="mail" name="user_email">
+        </div>
+        <div id="comments">
+          <label for="msg">Comments</label><br>
+          <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button">
+          <button type="submit">SEND</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
